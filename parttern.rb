@@ -1,19 +1,19 @@
 def patter(n)
-    nst=1
-    nsp=n-1
+    space=n-1
+    stars=1
 
     for i in (1..n)
 
-      for j in (1..nsp)
+      for j in (1..space)
        print "\t"
       end
 
-      for j in (1..nst)
+      for j in (1..stars)
        print "*\t"
       end
       
-      nsp-=1
-      nst+=1
+      space-=1
+      stars+=1
 
       puts
 
